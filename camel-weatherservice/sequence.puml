@@ -1,0 +1,7 @@
+@startuml
+BatchJob -> WeatherService: Request Weather Data
+WeatherService --> BatchJob: Response Weather Data (JSON)
+BatchJob -> BatchJob: parse JSON
+BatchJob -> BatchJob: extract Data
+BatchJob -> FileSystem: store Data
+@enduml

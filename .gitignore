@@ -1,0 +1,3 @@
+camel-weatherservice/target/
+camel-weatherservice/test.csv
+*.iml
