@@ -17,12 +17,8 @@ import org.springframework.context.annotation.ComponentScan;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-
         ConfigurableApplicationContext configurableApplicationContext = SpringApplication.run(Main.class, args);
-
         CamelSpringBootApplicationController configurableApplicationContextBean = configurableApplicationContext.getBean(CamelSpringBootApplicationController.class);
         configurableApplicationContextBean.blockMainThread();
-
-
     }
 }
