@@ -1,0 +1,4 @@
+cluster:
+  name: testCluster1
+  leaderElectionRootNode: /
+  zkhost: localhost:2181
