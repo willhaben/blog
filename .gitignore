@@ -4,3 +4,7 @@ camel-weatherservice/test.csv
 jmh/target/
 leader-election/target/
 
+rest-performance-testing/.idea/
+rest-performance-testing/gatling-tests/target/
+rest-performance-testing/web-standard/target/
+rest-performance-testing/web-reactive/target/

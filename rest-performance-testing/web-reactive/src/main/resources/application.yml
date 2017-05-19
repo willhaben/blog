@@ -1,0 +1,11 @@
+logging.level.root: info
+
+spring:
+  data:
+    cassandra:
+      contact-points:
+      keyspace-name:
+
+server:
+  tomcat:
+    max-threads: 2
